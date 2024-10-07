@@ -1,4 +1,9 @@
-# Known Issues and Other Notes
+# Sudoku Solver
+## Description
+Sudoku Puzzle Solver using Threads
+## Goals
+Utilize threads to create a multithreaded application that can create a solution for a Sudoku puzzle of any size AND if it is a valid puzzle.
+## Known Issues and Other Notes
 
 The main known issue is the segmentation fault caused for the 9x9 test puzzle.
 I have found that this is caused when adding in the line on sudoku.c at line 202.
